@@ -1,0 +1,12 @@
+digraph "llenar_matriz"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="llenar_matriz",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Agrega en la matriz el valor 1 si existe un camino entre lo nodos"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Buscar_nodo_apuntado",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_busqueda_ruta_8c.html#a03cf093d75a32fdc7381bcd0504a3e8c",tooltip="Busca en las columnas del grafo aquel que contenga el valor 1."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Buscar_nodo_apuntador",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_busqueda_ruta_8c.html#aa7daf6506ce546180aaa7a650f4eb5a2",tooltip="Busca en las filas de la matriz grafo."];
+}

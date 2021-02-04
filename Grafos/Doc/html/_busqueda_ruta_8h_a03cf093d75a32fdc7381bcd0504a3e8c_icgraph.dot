@@ -1,0 +1,14 @@
+digraph "Buscar_nodo_apuntado"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Buscar_nodo_apuntado",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Busca en las columnas del grafo aquel que contenga el valor 1."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="llenar_matriz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_busqueda_ruta_8h.html#a5dca04741663f75273f05e90ff874bb5",tooltip="Agrega en la matriz el valor 1 si existe un camino entre lo nodos"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ciclo_Completar_Matriz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_busqueda_ruta_8h.html#adf592806cf290956762357ada7dd8da6",tooltip="Envia como parametro a la funcion llenar_matriz() el nodo que se esta evaluando para determinar a que..."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+}

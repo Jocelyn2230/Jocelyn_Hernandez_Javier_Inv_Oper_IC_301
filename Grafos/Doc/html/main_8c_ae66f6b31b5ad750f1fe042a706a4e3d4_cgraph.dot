@@ -1,0 +1,22 @@
+digraph "main"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Busqueda_por_fila_Columna",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_busqueda_ruta_8c.html#a9588d82e58c3320c14b874788f6ee8c5",tooltip="Realiza la busqueda del valor 1 en la matriz"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ciclo_Completar_Matriz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_busqueda_ruta_8c.html#adf592806cf290956762357ada7dd8da6",tooltip="Envia como parametro a la funcion llenar_matriz() el nodo que se esta evaluando para determinar a que..."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="llenar_matriz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_busqueda_ruta_8c.html#a5dca04741663f75273f05e90ff874bb5",tooltip="Agrega en la matriz el valor 1 si existe un camino entre lo nodos"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Buscar_nodo_apuntado",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_busqueda_ruta_8c.html#a03cf093d75a32fdc7381bcd0504a3e8c",tooltip="Busca en las columnas del grafo aquel que contenga el valor 1."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Buscar_nodo_apuntador",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_busqueda_ruta_8c.html#aa7daf6506ce546180aaa7a650f4eb5a2",tooltip="Busca en las filas de la matriz grafo."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="imprimirGrafo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_busqueda_ruta_8c.html#a3ba1ad09c8201c418a51b59115bde294",tooltip="Muestra en pantalla los valores guardados en la matriz grafo."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="matriz_Adyacencias",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_busqueda_ruta_8c.html#ae3ece0e846bb1b9a8598dda4006d4c49",tooltip="Guarda en la matriz grafo las adyacencias que ingrese el usuario."];
+}
